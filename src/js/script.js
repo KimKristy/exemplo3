@@ -100,68 +100,96 @@
 
 // if
 
-if(true){
-    console.log("é verdadeiro")
-}
+// if(true){
+//     console.log("é verdadeiro")
+// }
 
-let exemplo = 1
-if (exemplo ==  1){
-    console.log("Esta correto")
-}
+// let exemplo = 1
+// if (exemplo ==  1){
+//     console.log("Esta correto")
+// }
 
 // if/else
 
-let nome = "fiap"
+// let nome = "fiap"
 
-if(nome == "fiap"){
-    console.log("Nome correto")
-    // document.write("Nome certo")
-}
-else{
-    console.log("Nome incorreto")
-    // document.write("Nome errado")
-}
+// if(nome == "fiap"){
+//     console.log("Nome correto")
+// document.write("Nome certo")
+// }
+// else{
+//     console.log("Nome incorreto")
+// document.write("Nome errado")
+// }
 
 // if encadeado ou aninhado
 
-let idade = 13
-if(idade <= 14){
-    console.log("Não pode entrar é menor")
-}
-else if(idade > 14 && idade <= 18){
-    console.log("Pode entrar e curtir")
-}
-else if(idade > 18 && idade <= 50){
-    console.log("Perigo seua pais estão na balada")
-}
-else{
-    console.log("Você deve ficar no sofá assistindo Netflix")
-}
+// let idade = 13
+// if(idade <= 14){
+//     console.log("Não pode entrar é menor")
+// }
+// else if(idade > 14 && idade <= 18){
+//     console.log("Pode entrar e curtir")
+// }
+// else if(idade > 18 && idade <= 50){
+//     console.log("Perigo seua pais estão na balada")
+// }
+// else{
+//     console.log("Você deve ficar no sofá assistindo Netflix")
+// }
 
 // switch case
 
-let time = "Corinthians"
+// let time = "Corinthians"
 
-switch(time){
-    case "Corinthians":
-        console.log("Melhor time")
-        break
-    case "São Paulo":
-        console.log("É tão ruim que não consegue ganhar em casa")
-        break
-    case "Palmeiras":
-        console.log("Simplesmente não tem opção")
-        break
-    default:
-        console.log("Não das opções válidas(santos)")
-}
+// switch(time){
+//     case "Corinthians":
+//         console.log("Melhor time")
+//         break
+//     case "São Paulo":
+//         console.log("É tão ruim que não consegue ganhar em casa")
+//         break
+//     case "Palmeiras":
+//         console.log("Simplesmente não tem opção")
+//         break
+//     default:
+//         console.log("Não das opções válidas(santos)")
+// }
 
 // Ternário
 
-let valor = 100
-let resultado = valor == 100 ? "Valor Certo" : "Valor Errado"
-console.log(resultado)
+// let valor = 100
+// let resultado = valor == 100 ? "Valor Certo" : "Valor Errado"
+// console.log(resultado)
 
-let nota = 6
-let passou = nota >= 6 ? "Você passou" : "Você não passou"
-console.log(passou)
+// let nota = 6
+// let passou = nota >= 6 ? "Você passou" : "Você não passou"
+// console.log(passou)
+
+// estrutura de repetição
+
+// for(let i = 0; i < 10; i++){
+//     console.log("o valor de I é",i)
+// }
+
+// while
+
+// let f = 0
+
+// while(f < 10){
+//     console.log("o valor de f é", f)
+//     f++
+// }
+
+// do while
+
+// let w = 0
+
+// do{
+//     console.log("do while", w)
+//     w++
+// }while(w <= 20)
+
+// jogo da adivinhação
+
+let palpite
